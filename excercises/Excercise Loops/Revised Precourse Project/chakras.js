@@ -1,0 +1,3 @@
+function affirmation(){
+    console.log ("")
+}
