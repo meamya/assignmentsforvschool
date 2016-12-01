@@ -1,0 +1,66 @@
+#background {
+    color: white;
+    background: fixed linear-gradient(green, blue, black);
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+.name {
+    color: black;
+}
+
+.textnumber {
+    color: black;
+}
+
+.table th td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: 18px;
+    padding
+}
+
+margin: {}
+
+#myTable {
+    padding-top: 250px;
+    font-size: 18px;
+    align-items: center;
+    padding: 5px;
+    display: inline-table;
+    table-layout: fixed;
+    border: 3px solid navy;
+}
+
+#th {
+    text-align: center;
+    align-items: center;
+    background-color: navy;
+}
+
+#borderright {
+    border-left: 1px dashed white;
+}
+
+#trashtalktable {
+    padding-top: 50px;
+    font-size: 16px;
+    align-items: center;
+    padding: 5px;
+    display: inline-table;
+    table-layout: fixed;
+    border: 1px solid white;  
+    background: white;
+}
+
+table2 {
+    
+}
+
+#trash {
+    color: black;
+}
+
+

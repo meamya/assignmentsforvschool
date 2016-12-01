@@ -1,0 +1,2 @@
+//Cors is cross origin resource sharing
+app.use(cors());

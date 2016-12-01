@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myAngular">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="addItem.html"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></head>
+    
+    <div class="fluid-container">
+    <div class="jumbotron">
+        <div class="container">
+            <center font="white">
+                <h1>Favored Hospitality</h1>
+                <h5>Curated Hospitality Gifts | On-Demand Service by UberRush</h5>
+            </center>
+        </div>
+    </div>
+    </div>
+  <body id="bg" ng-controller="Maincontroller">
+  
+   <div class="row">
+    <div class="col-sm-4" ng-repeat="item in items" ng-click=item.selectInventory>
+        <item-data inventory="item"></item-data>
+    </div>
+</div>
+ 
+<div class="card" ng-repeat="Item in Items"
+        ng-click="item.Items">
+   
+    <center>
+   <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#">Home</a></li>
+      <li role="presentation" class="active"><a href="#">List of Vendors</a></li>
+      <li role="presentation" class="active"><a href="#">UberRush Service</a></li>
+   </ul><input type="text" name="search" placeholder="Search by item, vendor, or location...">
+        
+
+
+      <form align="center">      
+      
+    <button ng-click="addNewItem()" type="button" href="addItem.html" class="btn btn-success btn-lg btn-block">Add New Product</button>
+    
+    <button ng-click="updateItem()" type="button" class="btn btn-primary btn-lg btn-block">Update Item</button>
+    
+    <button ng-click="deleteItem()" type="button" class="btn btn-danger btn-lg btn-block">Delete</button>
+    </form>
+       
+        
+        
+           <div class="row">
+        
+            <table class="table table-inverse">
+  <thead>
+    <tr>
+      <th>#ID</th>
+      <th>Product Name</th>
+      <th>Description</th>
+      <th>Cost</th>
+      <th>Number In Inventory</th>
+      <th>Vendor</th>
+      <th>Order History</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>City Guide Package 1</td>
+      <td>sldkdd dldkdldkd dlkdkdlk ddlkd kddldkddk dldkd dlkd dlkd dlkd d.</td>
+      <td>89.00/125.00</td>
+      <td>0</td>
+      <td>34</td>
+      <td>33</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Just Because</td>
+      <td>dldkdd dldkdd dldkd dkdld </td>
+      <td>94.00/145.00</td>
+      <td>2</td>
+      <td>dld</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Welcome Hospitality Package</td>
+      <td>dldkdd dldkdd dldkd dkdld </td>
+      <td>494.00</td>
+      <td>2</td>
+      <td>dld</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Welcome Package</td>
+      <td>dldkdd dldkdd dldkd dkdld </td>
+      <td>494.00</td>
+      <td>2</td>
+      <td>dld</td>
+    </tr>
+    
+  </tbody>
+</table>
+    </div></div>
+    
+</body>
+
+</html>

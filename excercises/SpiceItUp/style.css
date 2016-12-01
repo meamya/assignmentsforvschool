@@ -1,0 +1,19 @@
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: lightpink;
+    margin: auto;
+    border: 1px; 
+    box-shadow: 10px 10px 5px 0 #999;
+    border-radius: 20%; 
+    -webkit-transition: all .4s ease-in-out .1s;
+    -moz-transition: all .4s ease-in-out .1s;
+    -o-transition: all .4s ease-in-out .1s;
+    transition: all .4s ease-in-out .1s;
+}
+
+.box:hover {
+    background-color: palevioletred;
+    box-shadow: 5px 5px 5px 0 #999;
+    border-radius: 0;
+}

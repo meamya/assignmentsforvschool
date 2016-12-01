@@ -1,0 +1,25 @@
+#leftside {
+    background: peachpuff;
+    display: inline-block;
+    width: 50%;
+    height: fit;
+}
+
+#rightside{
+    background: black; 
+    display: inline-block;
+    width:50%;
+    height:100%;
+}
+
+
+footer {
+    margin: 50px 0;
+}
+
+}
+#headers {
+    color: white;
+    text-align: center;
+    font-family: 'Poiret One';    
+}

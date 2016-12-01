@@ -1,3 +1,0 @@
-function affirmation(){
-    console.log ("")
-}

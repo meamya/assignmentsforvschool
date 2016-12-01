@@ -1,0 +1,14 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "this is a test of the express framework. Yay!",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing"
+  },
+  "author": "Meamya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

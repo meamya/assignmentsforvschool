@@ -1,0 +1,29 @@
+var app = angular.module("BountyApp", []);
+app.controller("MainController", ["$scope", "bountyService", function ($scope, bountyService) {
+    $scope.getbounty = function (bounty) {
+       bountyService.getbountyInfo($scope.bountyID).then(function (bountyObj) {
+            $scope.bounty = bountyObj;
+        });
+    }
+}]);
+
+app.service("bountyService", ["$http", function ($http) {
+    this.getbountyInfo = function (id) {
+        return $http.jsonp("http://localhost:12345/bounties?callback=JSON_CALLBACK").then(function(response) {
+    // put data on the scope, etc.
+});
+            console.log(response.data);
+            console.log(response.data.name);
+            var bounty = {
+                name: response.data.name,
+                attack: response.data.attack,
+                abilities: response.data.abilities[0].name,
+                
+//            pokemon.name = response.data.name;
+//            pokemon.attack = response.data.attack;
+//            pokemon.abilities = response.data.abilities[0].name;
+//            
+            return bounty;
+        });
+    }
+}]);

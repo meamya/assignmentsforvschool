@@ -1,0 +1,33 @@
+// the array is represented like this [] items with 3 properties, name: ingredients, description
+//the object is represented like this {} two items on each submenu of appetizers, cold sands, hot sands, desserts, and drinks.
+{
+    "menu": [
+    {"appetizers": "cheese sticks", "chips and salsa" },
+    {"cold sandwiches": "turkey", "veggie"},
+    {"hot sandwiches": "hot turkey and cheese", "hot ham and cheese"},
+    {"desserts": "lemon tart", "ice cream"},
+    {"drinks": "ginerale", "tropical punch"},
+]
+
+
+    
+             {submenu: 'appitizers','coldsandwiches', 'hot sandwiches',}, 
+                [
+                   {name: 'chips and salsa', description: 'corn tortilla', ingredients: ''},
+                   {name: 'cheese sticks and marinara sauce', description: 'hand breaded cheese served hot', ingredients: 'white cheese and bread'},
+                   {name: 'small salad',ingredients: 'lettuce, tomato, cucumber', description: 'a small tossed salad'}
+                ]
+             },
+             {name: 'cold sandwiches', submenu: '2',: 
+                [
+                   {name: 'Turkey and Cheese', description: '', ingredients:'' },
+                   {name: 'Peanut Butter and Jam',description: '', ingredients: ''}
+                ]
+              },        
+              {name: 'Hot Sandwiches', submenu: '3',: 
+                [
+                   {name: 'Hot Turkey and Cheese', description: '', ingredients: ''},
+                ]
+              }
+          ]
+    }

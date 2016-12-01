@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.5/yeti/bootstrap.min.css" rel="stylesheet" /> </head>
+<div class="container">
+    <div class="col-md-6">
+        <body id="background" align="center" />
+        <br>
+        <h1 align="center"> High Score Haven </h1>
+        <p align="center"></p>
+        <p>Submit Your Top Winning Score</p>
+        <br>
+        <div class="row">
+            <div class="about">
+                <p>Enter and Share Your Highest Score with Friends & Family.</p>
+            </div>
+            <div class="scoreTable"></div>
+        </div>
+        <br>
+        <p>Enter Your Name:</p>
+        <br>
+        <input type="name" id="nameid" class="name" placeholder="Enter Your Name..." />
+        <br>
+        <br>
+        <p>Enter Your Score:</p>
+        <br>
+        <input type="number" class="textnumber" id="scoreid" class="number" placeholder="Your Highest Score..." />
+        <p>
+        <br>
+        <p>Say Something:</p>
+        <input type="text" id="trash" class="trash" placeholder="record some trash talk" width="250px"/>
+        <br>
+           <br>
+            <button type="button" id="submit" class="btn btn-success">Post Your Highest Score</button>
+        <br>
+        <br> </div>
+    <container>
+        <div class="row">
+            <div class="col-md-6" id=borderright>
+                <h2> - Walk of Fame - </h2>
+               <br>
+                <table id="myTable" width="550px" border="1" height="auto" padding="2px">
+                    <th id="th">Name</th>
+                    <th id="th">Highest Score</th>
+                    <th id="th">Date</th>
+                    <th id="th">Trash Talk</th>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                </div>
+                <br>
+                <br>
+            <p>*click on the box to view random trash talks</p><div class="col-md-6">
+                <button id='display' type="button" class="btn btn-primary">Submit</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-6">
+        <table class="table table-bordered" id="user-input">
+            <tr>
+                <th><h3>TRASH TALK</h3></th>
+            </tr>
+            <tr>
+                <td id="trashtalks"></td>
+            </tr>
+        </table>
+            </table>
+                   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script src="app.js"></script>
+    </body>
+
+</html>

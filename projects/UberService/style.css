@@ -1,0 +1,17 @@
+
+.jumbotron {
+    padding-bottom: 40px;
+    background-image: url("http://images.unsplash.com/photo-1479243942266-cf37eeca7029?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=41d91852d44da0ee616d3e2bd4ec9206");
+    background-position: 80% 87%;
+    background-size: cover;
+    font-family: 'Poiret', sans-serif;
+}
+
+.table{
+    background-color: skyblue;
+}
+
+
+
+
+

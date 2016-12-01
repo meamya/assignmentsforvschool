@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html lang="en" ng-app="BountyApp">
+    <head>
+        <meta charset="UTF-8">
+        <link style="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    </head>
+    <body ng-controller="MainController">
+       <h1>{{test}}</h1>
+       <p ng-repeat="item in bounties" ng-init>
+       <button>Update</button>
+       <p{{item.firstName}}><p>
+       <p{{item.lastName}}><p>
+       <p{{item.living}}><p>
+       <p{{item.amount}}><p>
+       <p{{item.type}}><p>
+        </p>
+       
+       <button ng-click="getAllBounties()">get bounties</button>
+        
+        <script src="app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    </body>
+</html>

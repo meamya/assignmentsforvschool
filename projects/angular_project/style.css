@@ -1,0 +1,79 @@
+#body {
+font-family: 'Poiret', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.css-form input.ng-invalid.ng-touched {
+    background-color: #FA787E;
+  }
+
+.css-form input.ng-valid.ng-touched {
+    background-color: #78FA89;
+  }
+
+.popover {
+ background: #FFFFFF;
+ border: 1px solid #CDCDD3;
+ border-radius: 3px;
+ box-shadow: 0 1px 3px rgba(34, 34, 49, 0.1);
+ font-family: ‘Helvetica Neue’, Arial, Helvetica, sans-serif;
+ line-height: 2;
+ min-width: 80px;
+ position: absolute;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.popover:before {
+ border: 12px solid transparent;
+ border-top-color: #CDCDD3;
+ content: ‘’;
+ left: 50%;
+ margin-left: -12px;
+ position: absolute;
+ top: 100%;
+}
+
+.popover:after {
+ border: 11px solid transparent;
+ border-top-color: #FFFFFF;
+ content: ‘’;
+ left: 50%;
+ margin-left: -11px;
+ position: absolute;
+ top: 100%;
+}
+
+CSS FILE
+ETA Panel
+.popover__header {
+ background-color: #F2F2F4;
+ border-radius: 3px 3px 0 0;
+ color: #6B6B76;
+ font-size: 11px;
+ padding: 0 12px;
+}
+
+.popover__content {
+ color: #09091A;
+ font-size: 14px;
+ line-height: 32px;
+ padding: 0 12px;
+ white-space: nowrap;
+}
+
+.popover__header {
+ background-color: #F2F2F4;
+ border-radius: 3px 3px 0 0;
+ color: #6B6B76;
+ font-size: 11px;
+ padding: 0 12px;
+}
+
+.popover__content {
+ color: #09091A;
+ font-size: 14px;
+ line-height: 32px;
+ padding: 0 12px;
+ white-space: nowrap;
+}
